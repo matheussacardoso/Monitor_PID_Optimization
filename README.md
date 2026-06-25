@@ -52,3 +52,5 @@ O controlador PID gerencia um processo cujo objetivo é estabilizar a tensão no
 - Regra de Negócio: O sistema monitora a tensão em tempo real (passos de 100ms) durante ciclos de 10 segundos para cada conjunto de parâmetros PID testados.
 
 - Alerta de Segurança: Se em qualquer momento a tensão medida desviar mais de 20% do valor desejado (ou seja, se ficar abaixo de 40N ou acima de 60N), o componente Publisher é imediatamente acionado, despachando uma notificação de erro para o Broker AWS SNS, que por sua vez entrega o alerta aos assinantes cadastrados.
+
+![Imagem da arquitetura da aplicação](Arquitetura_da_Aplicacao_Gemini.png)
