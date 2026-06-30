@@ -87,9 +87,9 @@ Para receber as mensagens no seu e-mail ou celular, primeiro precisamos criar o 
 2. Na barra de pesquisa superior, digite **SNS** e clique em **Simple Notification Service**.
 3. No menu lateral esquerdo, clique em **Tópicos** (*Topics*) e depois no botão **Criar tópico** (*Create topic*).
 4. Em **Tipo** (*Type*), selecione a opção **Padrão** (*Standard*).
-5. No campo **Nome** (*Name*), digite um nome de sua preferência (ex: `alertas-tensao-planta`).
+5. No campo **Nome** (*Name*), digite um nome de sua preferência (ex: `Alerta-Tensao-PID`).
 6. Deixe o restante como está, role até o final da página e clique em **Criar tópico**.
-7. **Importante:** Na página que se abrir, localize o campo **ARN** (ex: `arn:aws:sns:us-east-1:123456789012:alertas-tensao-planta`) e copie esse código. Ele irá direto para o seu arquivo `.env`.
+7. **Importante:** Na página que se abrir, localize o campo **ARN** (ex: `arn:aws:sns:us-east-1:123456789012:Alerta-Tensao-PID`) e copie esse código. Ele irá direto para o seu arquivo `.env`.
 
 ### Passo 1.2: Adicionar um Assinante (Seu E-mail)
 O tópico foi criado, mas ele precisa saber para quem enviar os alertas.
